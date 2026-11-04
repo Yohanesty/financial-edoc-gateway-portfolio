@@ -112,6 +112,14 @@ docs/project-story.md          sanitized project narrative
 - Where should synchronous acknowledgement end and asynchronous internal work begin?
 - What should be logged without exposing sensitive financial data?
 
+## Related architecture portfolio
+
+For the broader Application Architect view—covering distributed application consolidation, legacy interface preservation, runtime isolation, transaction boundaries, and deployment artifact verification—see:
+
+- [Financial Application Architecture Portfolio](https://github.com/Yohanesty/financial-application-architecture-portfolio)
+
+This gateway repository focuses on the **transport/integration modernization case**, while the architecture portfolio connects it to wider application consolidation and operational design decisions.
+
 ## Confidentiality boundary
 
 See [`SECURITY.md`](SECURITY.md). The rule for this repository is simple: **reproduce concepts, never reproduce proprietary artifacts**.
