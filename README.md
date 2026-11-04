@@ -13,7 +13,7 @@
 - Error-history capture and controlled reprocessing
 - Asynchronous downstream registration
 - Testable boundaries between transport, validation, parsing, and business handling
-- Architecture Decision Records for technical interviews
+- Architecture Decision Records for key technical choices
 
 ## Portfolio context
 
@@ -101,16 +101,6 @@ src/main/java/.../config       partner-specific demo settings
 docs/adr                       architecture decision records
 docs/project-story.md          sanitized project narrative
 ```
-
-## Interview talking points
-
-- Why replace a hard-to-maintain native socket service with Java/Netty?
-- How should transport framing be separated from business validation?
-- Why externalize partner-specific differences instead of branching business code?
-- How should invalid messages be recorded for diagnosis and controlled reprocessing?
-- Why should reprocessing reuse the same validation rules as initial receipt?
-- Where should synchronous acknowledgement end and asynchronous internal work begin?
-- What should be logged without exposing sensitive financial data?
 
 ## Related architecture portfolio
 
