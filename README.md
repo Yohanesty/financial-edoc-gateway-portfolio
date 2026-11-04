@@ -1,6 +1,6 @@
 # Financial E-Document Gateway Portfolio
 
-A **clean-room portfolio reconstruction** of a financial electronic-document message gateway using Java and Netty.
+금융 전자문서 외부 수신 구조의 Java/Netty 전환 경험을 일반화한 **Integration Modernization Engineering Case Study**입니다.
 
 > This repository does **not** contain employer/client source code, real message specifications, database schemas, hostnames, IPs, ports, certificates, keys, tokens, logs, screenshots, or internal documents. The protocol and data model in this repository are intentionally fictional.
 
